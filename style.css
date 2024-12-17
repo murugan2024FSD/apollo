@@ -1,4 +1,11 @@
-
+html, body {
+    align-items: center;
+    height: auto%;
+    width: auto;
+    margin: 0; /* Remove default margin */
+    padding:0px;
+    border: 1px solid black; /* Adjust border width, color, and style */
+}
 .logo__img{
     padding: 40px;
     padding-bottom: 20px;
@@ -6,12 +13,24 @@
     display: flex;
     align-items: center;
 }|
-h1{
-    display: inline-block;
-}
 .sign__s1.p{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     
     
+}
+
+.button__b1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.Tittle__1{
+    display: block;
+    padding-bottom: 50px;
+    color: darkslategrey;
+    font-size: small;
+
 }
