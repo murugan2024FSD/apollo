@@ -3,8 +3,6 @@ html, body {
     height: auto%;
     width: auto;
     margin: 0; /* Remove default margin */
-    padding:0px;
-    border: 1px solid black; /* Adjust border width, color, and style */
 }
 .logo__img{
     padding: 40px;
@@ -22,15 +20,12 @@ html, body {
 }
 
 .button__b1{
-    align-items: center;
     display: flex;
-    justify-content: center;
     cursor: pointer;
 }
 .Tittle__1{
-    display: block;
+    display: flex;
     padding-bottom: 50px;
     color: darkslategrey;
     font-size: small;
-
 }
